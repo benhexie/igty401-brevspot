@@ -1,0 +1,115 @@
+.land{
+    display:flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.land_card{
+    width:400px;
+    height:600px;
+    box-shadow: var(--shadow);
+    margin:30px 110px;
+    border-radius: 16px;
+    position:relative;
+}
+
+.land_img{
+    width:100%;
+    height:450px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.land_img img{
+    width:700px;
+    height:auto;
+}
+
+.price, .name, .seller{
+    width:100%;
+    padding:10px;
+    text-align: justify;
+    color:var(--accent_hover);
+    font-weight:500;
+}
+
+.name{
+    font-size:24px;
+    color:black;
+}
+
+.seller{
+    font-size:18px;
+}
+
+
+.info{
+    position:absolute;
+    width:480px;
+    height:230px;
+    box-shadow: var(--shadow);
+    top:200px;
+    right:-300px;
+    background: white;
+    padding:20px;
+    text-align: center;
+    animation: info .7s;
+    display:none;
+    z-index:2;
+}
+
+
+.land_card:nth-child(3n+0) .info{
+    left:-300px;
+    animation: reverse_info .7s
+}
+
+
+.land_card:hover .info{
+    display:block;
+}
+
+@keyframes info {
+    from{
+        right: 200px;
+        opacity:0;
+    }
+
+    to{
+        right:-300px;
+        opacity:1;
+    }
+}
+
+@keyframes reverse_info {
+    from{
+        left: 200px;
+        opacity:0;
+    }
+
+    to{
+        left:-300px;
+        opacity:1;
+    }
+}
+
+
+.info h3{
+    font-size:20px;
+}
+
+.buy{
+    width:150px;
+    height:45px;
+    background: var(--accent);
+    color:white;
+    border-radius: 8px;
+    margin:16px auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-weight:500;
+}
+

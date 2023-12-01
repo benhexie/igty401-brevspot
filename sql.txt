@@ -1,0 +1,6 @@
+create table blog(
+	id int AUTO_INCREMENT PRIMARY KEY,
+    name varchar(255),
+    details varchar(255555),
+    image varchar(255)
+)
