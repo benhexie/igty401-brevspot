@@ -14,18 +14,18 @@
 </head>
 <body>
     <div class="hero">
-    <div class="img_container">
-        <img src="images\7xm.xyz660581.jpg" alt="">
-    <div class="overlay"> 
-        
-    <div class="cement_central">
-        <h3> <span></span>brevspot</h3>
-        <h3> home of beverages</h3>
-        <div class="text">Premier site for top-notch beverage crops, products; the ultimate learning hub for all things drinks.</div>
-       <a href="about.php"><div class="learn_more">
-           learn more
-        </div></a> 
-    </div>
+        <div class="img_container">
+            <img src="images\7xm.xyz660581.jpg" alt="">
+        <div class="overlay"> 
+            
+        <div class="cement_central">
+            <h3> <span></span>brevspot</h3>
+            <h3>home of beverages</h3>
+            <div class="text">Premier site for top-notch beverage crops, products; the ultimate learning hub for all things drinks.</div>
+        <a href="about.php"><div class="learn_more">
+            learn more
+            </div></a> 
+        </div>
     </div>
 
   
@@ -37,9 +37,6 @@
         <div class="about_wrapper">
         <div class="about">
             <div class="left">
-                <div class="overlay">
-
-                </div>
                 <img src="images\7xm.xyz548257.jpg" alt="">
             </div>
 
