@@ -66,10 +66,10 @@ Driven by innovation and quality, we've swiftly grown, honoring Nigeria's agricu
 Contacting BrevSpot opens doors to a world of flavorful possibilities. Whether you're seeking premium beverage ingredients, exploring collaborations, or simply curious about our expertise, our team stands ready to engage. We offer personalized assistance, sharing our knowledge, sourcing the finest ingredients, and fostering partnerships to create exceptional beverage experiences. Reach out to us for tailored solutions and a journey into the heart of Nigeria's vibrant drink culture.
            
         <div class="icon_cont">
-        <i class="fa-brands fa-whatsapp"></i>
-        <i class="fa-brands fa-x-twitter"></i>
-        <i class="fa-brands fa-instagram"></i>
-        <i class="fa-regular fa-envelope"></i>
+        <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+        <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="https://www.instagram.com/instagram/"><i class="fa-brands fa-instagram"></i></a>
+        <a href="mailto:olusindeope@gmail.com"><i class="fa-regular fa-envelope"></i></a>
         </div>
             </div>
             </div>
